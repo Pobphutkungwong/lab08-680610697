@@ -23,7 +23,7 @@ router.get("/", (req: Request, res: Response) => {
 
     if (pcourseId.success && !pstudentId.success) {
       let studentRes: any[] = [];
-      enrollments.filter((e) => e.courseId == Number(courseId)).filter((e) => {
+      enrollments.filter((e) => e.courseId == String(courseId)).filter((e) => {
         students.filter((s) => e.studentId == s.studentId).forEach(v => {
           studentRes.push({
             studentId: v.studentId,

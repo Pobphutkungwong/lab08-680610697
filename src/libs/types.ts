@@ -3,13 +3,13 @@ interface Student {
   firstName: string;
   lastName: string;
   program: "CPE" | "ISNE";
-  programId: number; //add
-  courses?: number[];// string
+  programId: number;
+  courses?: number[];
 }
 export type { Student };
 
 interface Course {
-  courseId: number; //string
+  courseId: String;
   courseTitle: string;
   instructors: string[];
 }
@@ -17,7 +17,7 @@ export type { Course };
 
 interface Enrollment {
   studentId: string;
-  courseId: number; // string
+  courseId: string; 
 }
 export type { Enrollment };
 

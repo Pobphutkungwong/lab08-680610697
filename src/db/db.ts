@@ -28,17 +28,17 @@ export const students: Student[] = [
 
 export const courses: Course[] = [
   {
-    courseId: 261207,
+    courseId: "261207",
     courseTitle: "Basic Computer Engineering Lab",
     instructors: ["Dome", "Chanadda"],
   },
   {
-    courseId: 261497,
+    courseId: "261497",
     courseTitle: "Full Stack Development",
     instructors: ["Dome", "Nirand", "Chanadda"],
   },
   {
-    courseId: 269101,
+    courseId: "269101",
     courseTitle: "Introduction to Information Systems and Network Engineering",
     instructors: ["KENNETH COSH"],
   },
@@ -47,19 +47,19 @@ export const courses: Course[] = [
 export const enrollments: Enrollment[] = [
   {
     studentId: "680610002",
-    courseId: 261207,
+    courseId: "261207",
   },
   {
     studentId: "680610002",
-    courseId: 261497,
+    courseId: "261497",
   },
   {
     studentId: "680615003",
-    courseId: 269101,
+    courseId: "269101",
   },
   {
     studentId: "680615003",
-    courseId: 261497,
+    courseId: "261497",
   },
 ];
 
