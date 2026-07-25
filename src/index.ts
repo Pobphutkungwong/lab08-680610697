@@ -34,8 +34,8 @@ app.get("/", (req: Request, res: Response) => {
 app.get("/api/me", (req: Request, res: Response) => {
   res.status(200).json({
     ok: true,
-    fullName: "Supatchok Pimsan",
-    studentId: "680610724"
+    fullName: "Pobphut Kungwong",
+    studentId: "680610697"
   });
 });
 
